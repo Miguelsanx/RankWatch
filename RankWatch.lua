@@ -55,10 +55,14 @@ local RankWatch_Rank1_Allowed = {
 	[(GetSpellInfo(1008))] = true,	-- Mages commonly use rank 1 amplify/dampen magic in arenas for purge fodder
 	[(GetSpellInfo(604))] = true,
 	[(GetSpellInfo(1120))] = true,	-- Drain Soul Rank 1 is used to obtain soul shards without killing a mob too quickly
+	[(GetSpellInfo(686))] = true,	-- Demo Warlocks commonly use rank 1 shadow bolt to proc Decimation
+	[(GetSpellInfo(339))] = true,	-- Druids commonly use rank 1 entangling roots to dont damage low level targets
+	[(GetSpellInfo(1454))] = true,	-- Warlocks commonly use rank 1 life tap on vezax to avoid taking too much damage while still getting the buff
 }
 
 local RankWatch_RankMaxMinusOne_Allowed = {
 	[(GetSpellInfo(2120))] = true,	-- Mages use a downranked flamestrike for an optimal AOE rotation
+	[(GetSpellInfo(60053))] = true,	-- Survival Hunters use a downranked Explosive Shot for an optimal single target rotation
 }
 
 local RankWatch_AnyRank_Allowed = {
